@@ -319,7 +319,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #265f80;
+  color: #2a4980;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -6787,7 +6787,7 @@ textarea.form-control-lg {
 .flex-shrink-0 {
   flex-shrink: 0 !important;
   text-align: right;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .flex-shrink-center {
