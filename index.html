@@ -9,9 +9,13 @@
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Iconify icons (for MATLAB symbol)-->
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Mfizz fonts-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -19,15 +23,17 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Clarence Taylor</span>
+                <span class="d-block d-lg-none">Hendrik Heiser</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/portrait.jpg" alt="..." /></span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#research">Research</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
@@ -36,6 +42,7 @@
         </nav>
         <!-- Page Content-->
         <div class="container-fluid p-0">
+
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
@@ -52,34 +59,33 @@
 
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            Supporting evidence-based policy decisions, promoting diversity in science, encouraging interdisciplinary research and development, and advancing government transparency.<br><br>
+                            A highly flexible neuroscientist with a focus on large-scale data processing and imaging technology.
+                            Motivated to apply state-of-the-art algorithms to extract new meaningful
+                            information out of complex and valuable datasets.<br><br>
 
                             Primary fields of expertise:<br>
-                            data science · data analysis · data visualization ·
-                            biomedical image processing · computer vision · computational geometry<br><br>
+                            neuroscience · scientific computing · data analysis · data visualization · <i>in-vivo</i> 2-photon imaging ·
+                            stereotaxic rodent surgery · immunohistochemistry<br><br>
                         </div>
 
-                        <div class="flex-shrink-0 pl-5">
-                            <a href="http://www.snf.ch/en/theSNSF/profile/Pages/default.aspx" data-toggle="tooltip" data-placement="bottom" title="Swiss National Science Foundation"><img src="assets/img/Logo_SNF.png" height="30"></a>
-                            <h3>Data Scientist</h3><br><br>
+                        <div class="flex-shrink-center pl-5">
+                            <a href="https://www.hifo.uzh.ch/en/research/helmchen/juniorgroup0.html" data-toggle="tooltip"
+                               data-placement="bottom" title="Junior Group Anna-Sophia Wahl"><img src="assets/img/uzh_logo.png" height="80"></a>
+                            <h3>PhD student</h3><br><br>
 
-                            <a href="https://www.epfl.ch/about/overview/epfl-missions-and-values/" data-toggle="tooltip" data-placement="bottom" title="Ecole Polytechnique F&eacute;d&eacute;rale de Lausanne"><img src="assets/img/epfl-logo.svg" height="30"></a>
-                            <h3>Research Scientist</h3>
                         </div>
                     </div>
-                    <!--
-                    <p class="lead mb-5">A highly flexible neuroscientist with a focus on large-scale data processing and imaging technology, being able to rapidly learn new techniques and apply them independently.
-                        Motivated to apply state-of-the-art algorithms to extract new meaningful information out of complex and valuable datasets.</p>
-                    -->
+
                     <div class="social-icons">
                         <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+<!--                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>-->
+<!--                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>-->
                     </div>
 
                 </div>
             </section>
+
             <hr class="m-0" />
             <!-- Experience-->
             <section class="resume-section" id="experience">
@@ -87,38 +93,74 @@
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                            <h3 class="mb-0">Lecturer</h3>
+                            <div class="subheading mb-3">Life Science Zurich Learning Center</div>
+                            <p>Giving seminars, practical courses and guided institute tours about neuroscience and life
+                                as a scientist to visiting high school classes.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2020 - Present<br>(part-time)</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                            <h3 class="mb-0">Ph.D. student</h3>
+                            <div class="subheading mb-3">
+                                <a href="https://www.hifo.uzh.ch/en/research/helmchen/juniorgroup0.html" target="_blank" rel="noopener noreferrer">
+                                    Brain research institute, University of Zurich</a></div>
+                            <ul>
+                                <li>Recording and analysing large datasets of neural calcium signals</li>
+                                <li>Building and maintaining a
+                                    <a href="https://github.com/datajoint/datajoint-python" target="_blank" rel="noopener noreferrer">
+                                    MySQL-based database</a> for the data acquired by members of my research group</li>
+                                <li>Setting up a high-throughput
+                                    <a href="https://github.com/Hendriela/custom_caiman" target="_blank" rel="noopener noreferrer">
+                                        custom Python analysis pipeline</a> to rapidly process new data from my colleagues and me</li>
+                            </ul>
+                         </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2019 - Present</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                            <h3 class="mb-0">Visiting researcher</h3>
+                            <div class="subheading mb-3">
+                                <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-neuroscience/" target="_blank" rel="noopener noreferrer">
+                                    Center for Computational Neuroscience, Flatiron Institute</a>, Simons Foundation, New York City, USA</div>
+                            <ul>
+                                <li>Quality control of <a href="https://github.com/flatironinstitute/CaImAn" target="_blank" rel="noopener noreferrer">
+                                    calcium analysis tool</a> by running tests on own experimental data</li>
+                                <li>Expanded GitHub documentation to increase user-friendliness for non-computational scientists</li>
+                                <li>Attended hackathon to collaboratively implement improvements for performance and user-friendliness</li>
+                            </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">June - August 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Research associate</h3>
+                            <div class="subheading mb-3">
+                                Ecole Polytechnique Fédérale de Lausanne (EPFL)</div>
+                            <ul>
+                                <li>Performed histology and analysed microscopy images in ImageJ and QuPath, supported by custom algorithms</li>
+                                <li>Combined own data with existing datasets, organized and analysed it in a
+                                    <a href="https://www.nature.com/articles/s41593-021-00856-y" target="_blank" rel="noopener noreferrer">
+                                        publication-ready form</a> with custom Python scripts</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2018 - May 2019</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Design Intern</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                            <h3 class="mb-0">Lab rotation student</h3>
+                            <div class="subheading mb-3">European Neuroscience Institute, University of Göttingen, Germany</div>
+                                <ul>
+                                    <li>"Predicting fly orientation with a deep convolutional neural network": Implemented, evaluated and optimised a Keras CNN to rapidly process video recordings which is still used in the lab today.</li>
+                                    <li>"The impact of reward value on early sensory processing and its interaction with selective attention": Wrote MATLAB scripts to control visual stimuli in a psychophysics experiment and to analyse behavioural and eye-tracking data.</li>
+                                </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2018 - June 2018</span></div>
                     </div>
                 </div>
             </section>
+
             <hr class="m-0" />
             <!-- Education-->
             <section class="resume-section" id="education">
@@ -126,65 +168,139 @@
                     <h2 class="mb-5">Education</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
+                            <h3 class="mb-0">University of Zurich, Switzerland</h3>
+                            <div class="subheading mb-3">Centre for Neuroscience doctorate program</div>
+                            <div>Supervisors: Dr. Anna-Sophia Wahl, Prof. Fritjof Helmchen</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">2019 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University of Göttingen, Germany</h3>
+                            <div class="subheading mb-3">International Max Planck Research School, Master of Science, Neuroscience</div>
+                            <p>GPA: ~3.6</p>
+                            <p>Thesis: "Functional connectivity analysis of the ventromedial thalamus upon remote fear memory extinction"<br>
+                                Supervisor: Prof. Johannes Gräff, Brain Mind Institute, EPFL, Lausanne, Switzerland</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2017 - 2019</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">James Buchanan High School</h3>
-                            <div class="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
+                            <h3 class="mb-0">University of Göttingen, Germany</h3>
+                            <div class="subheading mb-3">Bachelor of Science, Biology</div>
+                            <p>GPA: ~3.4</p>
+                            <p>Thesis: "Vision and plasticity in mice – effects of postsynaptic proteins PSD-93, PSD-95 and neurogranin"<br>
+                                Supervisor: Prof. Siegrid Löwel, Department of Systems Neuroscience</p>
+                            <p><span class="text-primary">January - June 2016: </span>Erasmus+ semester, Umeå University, Sweden</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">2013 - 2017</span></div>
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
+
+            <!-- Research-->
+            <hr class="m-0" />
+            <section class="resume-section" id="research">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Research</h2>
+                    <h3 class="mb-0">Publications and presentations</h3>
+                    <p></p>     <!-- This creates a bit distance between the heading and the first entry -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-shrink-0-im pr-5"><img src="assets/img/NRe_paper_img.png" width="200"> </div>
+                        <div class="flex-grow-1">
+                            <div><a href="https://www.nature.com/articles/s41593-021-00856-y" style="font-weight:bold;">
+                                A thalamo-amygdalar circuit underlying the extinction of remote fear memories</a><br>
+                                BA Silva, S Astori, AM Burns, <b>H Heiser</b>, L van den Heuvel, G Santoni, MF Reza Martinez, C Sandi, J Gräff.  Nature Neuroscience, 2021.</div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-shrink-0-im pr-5"><img src="assets/img/FENS2020_poster_img.png" width="200"> </div>
+                        <div class="flex-grow-1">
+                            <div class="fake-link">Hippocampal microlesions temporarily affect spatial navigation.<br></div>
+                            <div><b>H Heiser</b>, A Hoffmann, M Wieckhorst, E Erlebach, A Schmidt-Rohr, B Weber, A Meyer-Lindenberg, F Helmchen, AS Wahl. <br>
+                            Poster presentation at the FENS 2020 Virtual Forum.</div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-shrink-0-im pr-5"><img src="assets/img/NRe_poster_img2.png" width="200"> </div>
+                        <div class="flex-grow-1">
+                            <div class="fake-link">Functional connectivity of the ventromedial thalamus upon remote fear extinction.<br></div>
+                            <div><b>H Heiser</b>, BA Silva, N Sato, J Gräff.<br>Poster presentation at the NWG Meeting 2019, Göttingen, Germany.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                    <ul class="list-inline dev-icons mb-5">
+                        <li class="list-inline-item"><i class="fab fa-python" title="Python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-r-project" title="R-Project"></i></li>
+                        <li class="list-inline-item"><i class="icon-mysql" title="MySQL"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-github" title="GitHub"></i></li>
+                        <li class="list-inline-item"><span class="iconify" data-icon="file-icons:matlab" data-inline="false" title="MATLAB"></span></li>
+                        <li class="list-inline-item"><i class="fab fa-html5" title="HTML5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3" title="CSS3"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-java" title="Java"></i></li>
                     </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
+                    <div class="subheading mb-3">Data analysis and visualization tools</div>
+                        <div class="flex-grow-1 mb-5">ImageJ/Fiji · Graphpad Prism · QuPath · Adobe Illustrator · LaTex · Microsoft Office Suite</div>
+                    <div class="subheading mb-3">Animal experiments</div>
+                        <div class="flex-grow-1 mb-5">LTK Module 1 FELASA licence</div>
+                     <div class="subheading mb-3">Languages</div>
+                        <div class="flex-grow-1 mb-5">German (native) · English (fluent) · French (basic) · Swedish (basic)</div>
                 </div>
             </section>
             <hr class="m-0" />
+
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Grants, Scholarships & Awards </h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">ZNZ PhD grant</h3>
+                            <div>Grant awarded by the Neuroscience Center Zurich covering three years of PhD salary (CHF 144,000)</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2019 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">PROMOS mobility grant</h3>
+                            <div>Grant awarded by DAAD for the master’s thesis project at EPFL (675€)</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January - March 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">NENS Exchange grant</h3>
+                            <div>Grant awarded by FENS for the master’s thesis project at EPFL (1,800€)</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2018 - January 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">IMPRS scholarship</h3>
+                            <div>Grant awarded by the Max Planck Society as financial support for the International
+                                Max Planck Research School (IMPRS) Neurosciences Master Program (9,906€)</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">October 2017 - September 2018</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Erasmus+ scholarship</h3>
+                            <div>Grant for the Erasmus+ semester in Umeå and Abisko, Sweden (2,160€)</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January - June 2016</span></div>
+                    </div>
+                </div>
+            </section>
+
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
@@ -194,52 +310,6 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
-                </div>
-            </section>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
